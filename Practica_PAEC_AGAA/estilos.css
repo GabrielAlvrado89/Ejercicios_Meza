@@ -1,0 +1,116 @@
+ /* Estilos generales del footer */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+
+footer .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+    margin: 10px 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Estilos de cuadros */
+/* Estilos generales */
+        body {
+            
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            
+        }
+
+        /* Estilos del cuadro */
+        .card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s ease;
+            text-align: center;
+            position: relative;
+            top: 20px; /* Mueve el elemento 20px hacia abajo */
+            left: 50px;
+            
+        }
+
+        .card-conteiner{
+            display: flex;            /* Activa Flexbox */
+            flex-direction: row;      /* Organiza los elementos en una fila horizontal */
+            gap: 20px;                /* Espacio entre los cuadros */
+            justify-content: center;  /* Centra los cuadros horizontalmente */
+            position: relative;
+            right: 50px;
+        }
+
+        .card-conteiner2{
+            display: flex;            /* Activa Flexbox */
+            flex-direction: row;      /* Organiza los elementos en una fila horizontal */
+            gap: 20px;                /* Espacio entre los cuadros */
+            justify-content: center;  /* Centra los cuadros horizontalmente */
+            position: relative;
+            right: 50px;
+            top: 50px;
+        }
+
+        /* Efecto de hover para agrandar el cuadro */
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Imagen dentro del cuadro */
+        .card img {
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        /* Contenido de texto en el cuadro */
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .card-content p {
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .Titulo1{
+            text-align: center;
+            font-style: italic;
+        }
